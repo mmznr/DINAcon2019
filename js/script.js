@@ -126,7 +126,7 @@ SELECT ?item ?Bild ?fountainCoord ?fountainCoordColor WHERE {
     //Main render function
     d3.sparql(endPoint, query, function(error, data) {
       if (error) throw error;
-          console.log(data);
+        console.log(data);
       
 
 
